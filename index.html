@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calendar</title>
+		<script type="text/javascript" src="cal.js"></script>
+		<link rel="stylesheet" href="cal.css" charset="utf-8"/>
+	</head>
+	<body onload="startUpdate()">
+		<h1 id="info">hi</h1>
+			<table id="block">
+			<tr>
+				<th></th>
+				<th>Monday</th>
+				<th>Tuesday</th>
+				<th>Wednesday</th>
+				<th>Thursday</th>
+				<th>Friday</th>
+			</tr>
+			<tr>
+				<th>8:30-9:30</th>
+					<td id="1:08"></td> <!-- 2,1 -->
+					<td id="2:08"></td> <!-- 2,2 -->
+					<td id="3:08"></td> <!-- 2,3 -->
+					<td id="4:08"></td> <!-- 2,4 -->
+					<td id="5:08"></td> <!-- 2,5 -->
+			</tr>
+			<tr>
+				<th>9:30-10:30</th>
+					<td id="1:09"></td> <!-- 3,1 -->
+					<td id="2:09"></td> <!-- 3,2 -->
+					<td id="3:09"></td> <!-- 3,3 -->
+					<td id="4:09"></td> <!-- 3,4 -->
+					<td id="5:09"></td> <!-- 3,5 -->
+			</tr>
+			<tr>
+				<th>10:30-11:30</th>
+					<td id="1:10"><a href="http://www.eecs.yorku.ca/~jr/web.html">EECS 1012</a></td> <!-- 4,1 -->
+					<td id="2:10"></td>		   <!-- 4,1 -->
+					<td id="3:10"><a href="http://www.eecs.yorku.ca/~jr/web.html">EECS 1012</a></td> <!-- 2,1 -->
+					<td id="4:10"></td>		   <!-- 2,1 -->
+					<td id="5:10"><a href="http://www.eecs.yorku.ca/~jr/web.html">EECS 1012</a></td> <!-- 2,1 -->
+			</tr>
+			<tr>
+				<th>11:30-12:30</th>
+					<td id="1:11"></td>   <!-- 5,1 -->
+					<td id="2:11"></td>
+					<td id="3:11"></td>
+					<td id="4:11"></td>
+					<td id="5:11"><a href="http://www.eecs.yorku.ca/~jr/web.html">EECS 1012 LAB</a></td>
+			</tr>
+			<tr>
+				<th>12:30-1:30</th>
+					<td id="1:12"></td>
+					<td id="2:12"></td>
+					<td id="3:12"></td>
+					<td id="4:12"></td>
+					<td id="5:12"><a href="http://www.eecs.yorku.ca/~jr/web.html">EECS 1012 LAB</a></td>
+			</tr>
+			<tr>
+				<th>1:30-2:30</th>
+					<td id="1:13"></td>
+					<td id="2:13"></td>
+					<td id="3:13"></td>
+					<td id="4:13"></td>
+					<td id="5:13"><a href="http://www.eecs.yorku.ca/~jr/web.html">EECS 1012 LAB</a></td>
+			</tr>
+			<tr>
+				<th>2:30-3:30</th>
+					<td id="1:14"><a href="https://w2prod.sis.yorku.ca/Apps/WebObjects/cdm.woa/20/wo/Y1BDLlfkAjluh1OgKjVWl0/0.1.10.17">JP2000</a></td>
+					<td id="2:14"></td>
+					<td id="3:14"><a href="https://w2prod.sis.yorku.ca/Apps/WebObjects/cdm.woa/20/wo/Y1BDLlfkAjluh1OgKjVWl0/0.1.10.17">JP2000</a></td>
+					<td id="4:14"></td>
+					<td id="5:14"></td>
+			</tr>
+			<tr>
+				<th>3:30-4:30</th>
+					<td id="1:15"><a href="https://w2prod.sis.yorku.ca/Apps/WebObjects/cdm.woa/20/wo/Y1BDLlfkAjluh1OgKjVWl0/0.1.10.17">JP2000</a></td>
+					<td id="2:15"></td>
+					<td id="3:15"><a href="https://w2prod.sis.yorku.ca/Apps/WebObjects/cdm.woa/20/wo/Y1BDLlfkAjluh1OgKjVWl0/0.1.10.17">JP2000</a></td>
+					<td id="4:15"></td>
+					<td id="5:15"></td>
+			</tr>
+			<tr>
+				<th>4:30-5:30</th>
+					<td id="1:16"></td>
+					<td id="2:16"></td>
+					<td id="3:16"></td>
+					<td id="4:16"></td>
+					<td id="5:16"></td>
+			</tr>
+			<tr>
+				<th>5:30-6:30</th>
+					<td id="1:17"></td>
+					<td id="2:17"></td>
+					<td id="3:17"></td>
+					<td id="4:17"></td>
+					<td id="5:17"></td>
+			</tr>
+			<tr>
+				<th>6:30-7:30</th>
+					<td id="1:18"></td>
+					<td id="2:18"><a href="https://w2prod.sis.yorku.ca/Apps/WebObjects/cdm.woa/12/wo/twbcY2ixA6EyUCxGKR8OUg/0.1.10.17">MATH2030</a></td>
+					<td id="3:18"></td>
+					<td id="4:18"></td>
+					<td id="5:18"></td>
+			</tr>
+			<tr>
+				<th>7:30-8:30</th>
+					<td id="1:19"></td>
+					<td id="2:19"><a href="https://w2prod.sis.yorku.ca/Apps/WebObjects/cdm.woa/12/wo/twbcY2ixA6EyUCxGKR8OUg/0.1.10.17">MATH2030</a></td>
+					<td id="3:19"></td>
+					<td id="4:19"></td>
+					<td id="5:19"></td>
+			</tr>
+			<tr>
+				<th>8:30-9:30</th>
+					<td id="1:20"></td>
+					<td id="2:20"><a href="https://w2prod.sis.yorku.ca/Apps/WebObjects/cdm.woa/12/wo/twbcY2ixA6EyUCxGKR8OUg/0.1.10.17">MATH2030</a></td>
+					<td id="3:20"></td>
+					<td id="4:20"></td>
+					<td id="5:20"></td>
+			</tr>
+			<tr>
+				<th>9:30-10:30</th>
+					<td id="1:21"></td>
+					<td id="2:21"><a href="https://w2prod.sis.yorku.ca/Apps/WebObjects/cdm.woa/12/wo/twbcY2ixA6EyUCxGKR8OUg/0.1.10.17">MATH2030</a></td>
+					<td id="3:21"></td>
+					<td id="4:21"></td>
+					<td id="5:21"></td>
+			</tr>
+		</table>
+	</body>
+</html>
